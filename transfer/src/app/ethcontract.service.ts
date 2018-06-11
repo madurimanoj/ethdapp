@@ -12,8 +12,8 @@ let tokenAbi = require('../../../build/contracts/Payment.json');
 })
 
 export class EthcontractService {
-  private web3Provider: null,
-  private contracts: {},
+  private web3Provider: null;
+  private contracts: {};
 
 
   constructor() {
